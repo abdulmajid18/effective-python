@@ -9,4 +9,5 @@ def never_returns() -> NoReturn:
 
 
 if __name__ == '__main__':
-    never_returns()
+    a = never_returns()
+    print(a)
