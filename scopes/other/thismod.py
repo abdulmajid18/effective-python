@@ -24,9 +24,13 @@ def glob3():
 
 
 def test():
-    print(var)
-    local();
-    glob1();
-    glob2();
-    glob3()
-    print(var)
+    x = 1
+    a = x
+    x = 20
+    print(a)
+    # print(var)
+    # local();
+    # glob1();
+    # glob2();
+    # glob3()
+    # print(var)
